@@ -31,4 +31,4 @@ logs
 *.log
 
 # database
-dbconfig.json
+backend/dbconfig.json
