@@ -8,25 +8,17 @@ CREATE DATABASE jocal_todo
     CONNECTION LIMIT = -1;
 
 
-CREATE TABLE todo_v1 (
-    id SERIAL PRIMARY KEY,
-    description VARCHAR(255)
-);
-
-
 CREATE TABLE todo (
     id SERIAL PRIMARY KEY,
     description VARCHAR(255),
     prio VARCHAR(15)
 );
 
-
 CREATE TABLE special_day (
     id SERIAL PRIMARY KEY,
     description VARCHAR(255),
     date DATE not NULL
 );
-
 
 CREATE TABLE event (
     id SERIAL PRIMARY KEY,

@@ -1,8 +1,9 @@
 Calendar React app 
 
 
-To use backend:
-1. Create local postgresSQL database
+
+To use backend: 
+1. Create local postgresSQL database    (not fixed yet)
 2. Add database information in /backend/dbconfig.json
 3. Add host and port for api in /jocal-frontend/src/Config.tsx
 4. Change DEFAULTUSER in /jocal-frontend/src/Config.tsx
