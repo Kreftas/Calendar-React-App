@@ -1,0 +1,50 @@
+.Log-Content {
+    margin: auto;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background-color: var(--col-content);
+
+    .Log-box {
+        background-color: rgb(168, 168, 168);
+        width: 50%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .Log-form {
+            width: 70%;
+            height: 5rem;
+            margin-bottom: .4rem;
+
+            .Log-input {
+                height: 3rem;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 1rem;
+                font-size: larger;
+            }
+
+            .Log-label {
+                font-size: larger;
+            }
+
+            .Log-button {
+                height: 3rem;
+                width: 100%;
+                border: 2px solid transparent;
+                background-color: rgb(143, 57, 57);
+
+                &:hover {
+                    cursor: pointer;
+                    border: 2px solid black;
+                }
+            }
+        }
+    }
+
+}

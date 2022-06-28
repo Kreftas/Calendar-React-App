@@ -1,0 +1,28 @@
+:root {
+    --sidebar-width: 3rem;
+    --calendar-width: calc(var(--content-width) * 0.9);
+    --calendar-table-width: calc(var(--calendar-width) - var(--sidebar-width) * 2);
+    --columnbar-height: 3rem;
+    --rowbar-width: 7rem;
+    --rowbar-height: calc(var(--calendar-height) - var(--columnbar-height) - var(--calheader-height));
+    --calheader-height: 4rem;
+
+
+    --calcontent-width: calc(var(--calendar-table-width) - var(--rowbar-width));
+    // --calcontent-height: calc(100% - var(var(--columnbar-height)));
+    --calcontent-height: var(--rowbar-height);
+}
+
+
+.Calendar {
+    // background-color: green;
+    width: var(--calendar-width);
+    margin: auto;   
+    height: var(--calendar-height);
+}
+
+.Cal-table {
+    display: flex;
+
+}
+

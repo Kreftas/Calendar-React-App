@@ -1,0 +1,40 @@
+.Component-columnbar {
+    height: var(--columnbar-height);
+    // margin: auto;
+    // position: relative;  
+    display: flex;
+
+    .Component-columnbarboxes {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .Component-columnbarstart {
+        width: var(--rowbar-width); 
+        width: 7rem;
+        display: flex;
+        
+
+        // .Item-columnbox {
+        //     // opacity: 0;
+        //     // background-color: var(--col-fill);
+        //     // background-color: mediumpurple;
+        // }
+    }
+}
+
+.Component-rowbar {
+    height: var(--rowbar-height);
+    width: var(--rowbar-width);
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    
+
+    .Item-rowbarbox {
+        
+        display: flex;
+    }
+}
+
+

@@ -1,0 +1,46 @@
+.Header {
+
+    nav {
+        height: var(--header-height);
+        min-width: var(--min-width);
+        background-color: var(--col-header);
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20rem;
+        padding-right: 20rem;
+    
+        h1 {
+           color: white;
+        }
+    
+        ul {
+            list-style-type: none;
+            margin: 0;
+            overflow: hidden;
+            padding: 0;
+            background-color: var(--col-header);
+    
+            li {
+                display: inline;   
+                float: left; 
+            }
+    
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+    
+                &:hover {
+                    background-color: #111;
+                }   
+            }
+        }
+    }
+}
+
+

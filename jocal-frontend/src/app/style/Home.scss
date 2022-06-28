@@ -1,0 +1,120 @@
+:root {
+    --home-header-height: 5rem;
+    --home-list-height: calc(var(--content-height) - var(--home-header-height));
+}
+
+.Home-content {
+    margin: auto;
+    height: var(--content-height);
+    width: 100%;
+}
+
+.Home-header {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+    height: var(--home-header-height);
+    box-sizing: border-box;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+
+    button {
+        width: 4rem;
+        height: 4rem;
+        background-color: var(--col-4);
+        border: 1px solid black;    
+
+    }
+
+}
+
+
+.Home-container {
+    display: flex;
+}
+
+
+.Home-lists {
+    margin: auto;
+    width: 80%;
+    height: var(--home-list-height);
+    display: flex;
+}
+
+
+.Home-itembox {
+    width: 100%;
+    box-sizing: border-box;
+    height: 3rem;
+    padding: .3rem;
+    display: flex;
+    align-items: center;
+}
+
+.Home-eventbox {
+    background-color: var(--col-1);
+    height: 4rem;
+    justify-content: space-between;
+
+    p {
+        border: 1px solid black;
+        padding: 1rem;
+    }
+
+}
+
+.Home-specialbox {
+    background-color: var(--col-1);
+}
+
+.Home-eventcontainer {
+    flex-grow: 1;
+    margin: 1rem;
+
+    .Home-list-header {
+        display: flex;
+        justify-content: space-between;
+        height: 3rem;
+        padding: .3rem;
+    }
+
+    .Home-label {
+        text-align: center;
+        font-size: 1.4rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+        font-weight: bold;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .Home-buttons {
+        // background-color: rebeccapurple;
+        display: flex;
+    }
+
+    .Home-tocalendar-button {
+        margin-left: .3rem;
+        width: 3rem;
+        height: 3rem;
+        background-color: var(--col-4);
+        border: 1px solid black;    
+
+        
+    }
+
+    .Home-list {
+        // background-color: rgb(83, 83, 83);
+        // margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .Home-speciallist {
+        display: flex;
+
+    }
+
+}

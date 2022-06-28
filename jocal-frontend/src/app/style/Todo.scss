@@ -1,0 +1,122 @@
+:root {
+    --controller-height: 5rem;
+}
+
+
+
+
+
+//-------------------------------------------CONTROLLER-------------------------------------------//
+
+.Component-todolistcontroller {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 80.7%;
+    border: 2px solid transparent;
+
+    .Component-todocontrolbox {
+        height: 5rem;
+        display: flex;
+    }
+
+    .Item-todocontrol {
+        width: 33%;
+        background-color: var(--col-1);
+    }
+
+    .Mode-activeformbutton {
+        background-color: var(--col-curr);
+    }
+
+}
+
+
+//-------------------------------------------TODOLIST-------------------------------------------//
+
+.Container-todolist {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .Mode-todolistscroll {
+        width: 100%;
+    }
+}
+
+.Item-newtodobox {
+    background-color: var(--col-1);
+    margin-top: .2rem;
+}
+
+
+
+//-------------------------------------------BOXES-------------------------------------------//
+
+
+
+.Item-box-todo {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: .2rem;
+}
+
+.List-box {
+    justify-content: space-between;
+    border-radius: .4rem;
+}
+
+// .List-eventbox {
+//     // background-color: var(--col-2);
+// }
+
+// .List-todobox {
+
+// }
+
+// .List-specialbox {
+//     background-color: var(--col-1);
+// }
+
+.Item-todolabel {
+    margin-left: .3rem;
+}
+
+.Component-todobuttons {
+    display: flex;
+    margin-right: .3rem;
+}
+
+.Item-todobutton {
+    background-color: var(--col-1);
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    * {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+
+// .Mode-prio-high {
+//     background-color: var(--col-high);
+// }
+
+// .Mode-prio-med {
+//     background-color: var(--col-med);
+// }
+
+// .Mode-prio-low {
+//     background-color: var(--col-low);
+// }
