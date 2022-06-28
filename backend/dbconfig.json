@@ -1,7 +1,7 @@
 {
-    "user": "",
-    "password": "",
-    "database": "",
-    "host": "",
-    "port": 0
+    "user": "postgres",
+    "password": "aP42xqc79",
+    "database": "jocal_todo",
+    "host": "localhost",
+    "port": 5432
 }
